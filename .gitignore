@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Data files (generated)
+data/
+
+# DuckDB database files
+db/*.db
+db/*.duckdb
+db/*.wal
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Anything generated/runtime
+*.sqlite
+*.tmp
